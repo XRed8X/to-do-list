@@ -1,0 +1,67 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+.background {
+    background-image: url('https://www.todofondos.net/wp-content/uploads/1920x1080-Anime-Anime-Girls-Highschool-DXD-Toujou-Koneko-Wallpaper-HD.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table-container {
+    width: 100%;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+.table {
+    margin-bottom: 0;
+}
+.table th, .table td {
+    text-align: center;
+}
+.table th {
+    background-color: #652540;
+    color: white;
+}
+.table td {
+    background-color: #f8f9fa;
+}
+.checkbox {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.input-container {
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    gap: 10px;
+}
+.input-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+.input-container button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #652540;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.input-container button:hover {
+    background-color: #4f1f36;
+}
+.input-container input:focus, .input-container button:focus {
+    outline: none;
+    border-color: #652540;
+}
