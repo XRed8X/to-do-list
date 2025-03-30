@@ -1,14 +1,15 @@
-
-dotenv.config()
-
-mongoose.connect(procees.env.url)
-.then(() => console.log('MongoDB Connected...'))
-.catch((error) => console.error(error));
-
-const app = express();
-
-app.use(cors());
-
-app.listen(4000, () => {
-    console.log('Server is running on port 4000');
-})
+{
+    "name"= "PWA",
+    "short_name"= "Mayo PWA",
+    "start_url"= "index.html",
+    "display"= "standalone",
+    "background_color"="#ffffff",
+    "theme_color"= "#007bff",
+    "icons"= [
+        {
+            "src": "icon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}
